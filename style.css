@@ -1,0 +1,34 @@
+.navbar-nav{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+*{
+ overflow-x: hidden;
+}
+.class{
+   height:fit-content;
+}
+.class1{
+    height: fit-content;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    display: flex;
+}
+@media screen and (max-width : 700px) {
+    .row{
+        width : 90%;
+        margin : 0 auto;
+        flex-wrap: wrap;
+        height:2000px;
+    }
+    .col-3{
+        height: 500px;
+        width: 300px;
+    }
+}
